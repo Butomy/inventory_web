@@ -5,7 +5,7 @@
     <router-link :to="{ name: 'home' }" class="brand-link">
       <img
         v-if="appInfo"
-        :src="appInfo.blackLogo"
+        src="https://saloon9.com/public/images/logo-black.png"
         :alt="appInfo.companyName"
         class="lg-logo light-logo"
       />
